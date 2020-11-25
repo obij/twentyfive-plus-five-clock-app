@@ -107,7 +107,7 @@ class App extends Component {
   }
 
   incBreak(){
-    var minutes2 = parseInt(this.state.minutes);
+    //var minutes2 = parseInt(this.state.minutes);
     if(this.state.breakLength < 3600){
       if(this.runningFlag === false && this.state.displayMessage === "Break"){
         if((this.state.breakLength + 60)/60 < 10){
@@ -139,7 +139,7 @@ class App extends Component {
   }
 
   decBreak(){
-    var minutes2 = parseInt(this.state.minutes);
+    //var minutes2 = parseInt(this.state.minutes);
     if(this.state.breakLength > 60){
       if(this.runningFlag=== false  && this.state.displayMessage === "Break"){
         if((this.state.breakLength - 60)/60 < 10){
