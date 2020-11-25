@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #e0a016;
+
+}
+
+
+
+.title{
+  margin-left: 473px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+  width: 30%;
+  font-size: 28px;
+  display: block;
+
+}
+
+.div-length{
+  margin-left: 465px;
+  padding-top: 0;
+  margin-top: 0;
+  width: 32%;
+  font-size: 16px;
+  vertical-align: top;
+  
+}
+
+
+.break-div{
+  width: 182px;
+  float: left;
+}
+
+.session-div{
+  width: 182px;
+  float: left;
+}
+
+
+#break-increment{
+  padding-top: 0;
+  margin-top:0;
+  margin-left: 30px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#break-length{
+  margin-top:0;
+  padding-top: 0;
+  margin-left: 10px;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+#break-decrement{
+  padding-top: 0;
+  margin-top:0;
+   font-size: 25px;
+   cursor: pointer;
+}
+
+#session-increment{
+  padding-top: 0;
+  margin-top: 0;
+  margin-left: 30px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#session-length{
+  padding-top: 0;
+  margin-top:0;
+  margin-left: 10px;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+#session-decrement{
+  padding-top: 0;
+  margin-top:0;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.Timer-box{
+  width: 317px;
+  height: 171px;
+  border-color: #a37b1c;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 150px;
+  margin-left: 480px;
+}
+
+#timer-label{
+  font-size: 25px;
+  text-align: center;
+}
+
+.control-div{
+  margin-left: 620px;
+  margin-top: 20px;
+}
+
+#start_stop{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#reset{
+  font-size: 25px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.timer-display{
+  text-align: center;
+  font-size: 70px;
+  margin-top: 0;
+}
